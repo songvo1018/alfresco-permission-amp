@@ -14,11 +14,11 @@
     -->
 
     <!-- Add module specific messages and labels -->
-    <bean id="custom-role.resources"
+    <bean id="rusatom-role.resources"
           class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
         <property name="resourceBundles">
             <list>
-                <value>alfresco.web-extension.messages.custom-role</value>
+                <value>alfresco.web-extension.messages.rusatom-role</value>
             </list>
         </property>
     </bean>
