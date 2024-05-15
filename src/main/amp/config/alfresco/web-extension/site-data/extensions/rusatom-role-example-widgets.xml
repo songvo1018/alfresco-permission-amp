@@ -1,8 +1,8 @@
 <extension>
   <modules>
     <module>
-      <id>custom-role - Example Aikau Widgets</id>
-      <version>1.0</version>
+      <id>${project.artifactId} - ${project.description}</id>
+      <version>${project.version}</version>
       <auto-deploy>true</auto-deploy>
       <configurations>
         <config evaluator="string-compare" condition="WebFramework" replace="false">
